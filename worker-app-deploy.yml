@@ -15,7 +15,7 @@ spec:
       spec:
         containers:
         - name: worker-app
-          image: dockersamples/examplevotingapp_worker
+          image: kodekloud/examplevotingapp_worker
   replicas: 1
   selector:
     matchLabel:

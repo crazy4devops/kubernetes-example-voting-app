@@ -15,7 +15,7 @@ spec:
       spec:
         containers:
         - name: result-app
-          image: dockersamples/examplevotingapp_result
+          image: kodekloud/examplevotingapp_result
           ports:
           - containerPort: 80
   replicas: 1
